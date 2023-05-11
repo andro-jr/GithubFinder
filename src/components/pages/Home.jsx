@@ -1,7 +1,14 @@
 import React from 'react';
+import UserResults from '../users/UserResults';
+import UsersSearch from '../users/UsersSearch';
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <UsersSearch />
+      <UserResults />
+    </>
+  );
 };
 
 export default Home;
